@@ -8,4 +8,4 @@ tellraw @s {"rawtext": [{"text": ":helpth - thhelp"}]}
 
 tellraw @s {"rawtext": [{"text": ":help - open helpen"}]}
 
-tellraw @s {"rawtext": [{"text": "By §l§bRimuru(Secondyou)"}]}
+tellraw @s {"rawtext": [{"text": "By §l§bSecondyou"}]}
