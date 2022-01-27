@@ -1,0 +1,128 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:tree_feature": {
+    "description": {
+      "identifier": "bym:tree_super"
+    },
+    "fancy_trunk": {
+      "trunk_height": {
+        "base": 9,
+        "variance": 12,
+        "scale": 0.618
+      },
+      "trunk_width": 7,
+      "trunk_block": {
+        "name": "minecraft:log",
+        "states": {
+          "old_log_type": "oak"
+        }
+      },
+      "branches": {
+        "slope": 0.381,
+        "density": 1.0,
+        "min_altitude_factor": 0.2
+      },
+      "width_scale": 1.0,
+      "foliage_altitude_factor": 0.3
+    },
+    "fancy_canopy": {
+      "height": 7,
+      "radius": 6,
+      "leaf_block": {
+        "name": "bym:tree_leave",
+        "states": {
+          "old_leaf_type": "oak"
+        }
+      }
+    },
+    "base_block": [
+      "minecraft:dirt",
+      {
+        "name": "minecraft:dirt",
+        "states": {
+          "dirt_type": "coarse"
+        }
+      },
+      "minecraft:end_stone",
+      "minecraft:grass",
+      "minecraft:grass_path",
+      "minecraft:gravel",
+      "minecraft:mycelium",
+      "minecraft:podzol",
+      "bym:tree_super"
+    ],
+    "may_grow_on": [
+      "bym:tree_super",
+      "minecraft:dirt",
+      "minecraft:end_stone",
+      "minecraft:grass",
+      "minecraft:grass_path",
+      "minecraft:gravel",
+      "minecraft:mycelium",
+      "minecraft:podzol"
+    ],
+    "may_replace": [
+      "minecraft:air",
+      {
+        "name": "minecraft:leaves",
+        "states": {
+          "old_leaf_type": "oak"
+        }
+      },
+      {
+        "name": "minecraft:leaves",
+        "states": {
+          "old_leaf_type": "spruce"
+        }
+      },
+      {
+        "name": "minecraft:leaves",
+        "states": {
+          "old_leaf_type": "birch"
+        }
+      },
+      {
+        "name": "minecraft:leaves",
+        "states": {
+          "old_leaf_type": "jungle"
+        }
+      },
+      {
+        "name": "minecraft:leaves2",
+        "states": {
+          "new_leaf_type": "acacia"
+        }
+      },
+      {
+        "name": "minecraft:leaves2",
+        "states": {
+          "new_leaf_type": "dark_oak"
+        }
+      },
+      "minecraft:dirt",
+      "minecraft:end_stone",
+      "minecraft:grass",
+      "minecraft:grass_path",
+      "minecraft:gravel",
+      "minecraft:mycelium",
+      "minecraft:podzol",
+      "bym:tree_super"
+    ],
+    "may_grow_through": [
+      "minecraft:dirt",
+      "minecraft:grass",
+      {
+        "name": "minecraft:dirt",
+        "states": {
+          "dirt_type": "coarse"
+        }
+      },
+      "minecraft:end_stone",
+      "minecraft:grass_path",
+      "minecraft:gravel",
+      "minecraft:mycelium",
+      "minecraft:podzol",
+      "bym:tree_super"
+    ]
+  }
+}

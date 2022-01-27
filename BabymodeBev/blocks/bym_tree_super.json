@@ -1,0 +1,187 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bym:tree_super",
+      "properties": {
+        "block:rotation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/blocks/bym_tree_super.json",
+      "minecraft:destroy_time": 0.0,
+      "minecraft:friction": 0.1,
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:explosion_resistance": 0.0,
+      "minecraft:block_light_absorption": 0.0,
+      "minecraft:block_light_emission": 0.1,
+      "minecraft:pick_collision": {
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          12,
+          12
+        ]
+      },
+      "minecraft:geometry": "geometry.pa_sapling",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "bym_tree_super",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:breakonpush": true,
+      "minecraft:entity_collision": false,
+      "minecraft:on_interact": {
+        "event": "random:tick",
+        "target": "self",
+        "condition": "query.get_equipped_item_name == 'bone_meal'"
+      },
+      "minecraft:random_ticking": {
+        "on_tick": {
+          "event": "random:tick",
+          "target": "self"
+        }
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "block_filter": [
+              "rooted_dirt",
+              "dirt",
+              "end_stone",
+              "grass",
+              "grass_path",
+              "gravel",
+              "mycelium"
+            ],
+            "allowed_faces": [
+              "up"
+            ]
+          }
+        ]
+      },
+      "minecraft:immovable": false,
+      "minecraft:on_player_destroyed": {
+        "event": "remove:block",
+        "target": "self"
+      },
+      "minecraft:on_step_on": {
+        "event": "step:on",
+        "target": "self"
+      },
+      "minecraft:on_step_off": {
+        "event": "step:off",
+        "target": "self"
+      },
+      "minecraft:on_placed": {
+        "event": "size:block",
+        "target": "self"
+      },
+      "minecraft:on_fall_on": {
+        "event": "fall:on",
+        "target": "self"
+      },
+      "minecraft:ticking": {
+        "looping": true,
+        "range": [
+          10,
+          10
+        ],
+        "on_tick": {
+          "event": "on_tick",
+          "target": "self"
+        }
+      },
+      "minecraft:creative_category": {
+        "category": "nature"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('block:rotation') == 2",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 3",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -180,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 4",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            90,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 5",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -90,
+            0
+          ]
+        }
+      }
+    ],
+    "events": {
+      "grow_ticking": {
+        "randomize": [
+          {
+            "weight": 10
+          },
+          {
+            "set_block_property": {
+              "pa:growth_stage": "(query.block_property('pa:growth_stage') < 1}) ? query.block_property('pa:growth_stage') + 1 : 1"
+            },
+            "weight": 90
+          }
+        ]
+      },
+      "remove:block": {},
+      "size:block": {},
+      "step:on": {},
+      "step:off": {},
+      "on_tick": {},
+      "random:tick": {
+        "run_command": {
+          "command": [
+            "function roundOak"
+          ]
+        }
+      },
+      "fall:on": {
+        "run_command": {
+          "command": []
+        }
+      }
+    }
+  }
+}

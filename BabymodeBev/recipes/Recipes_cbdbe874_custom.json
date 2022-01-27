@@ -1,0 +1,53 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_c74336d5"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:copper_ingot",
+        "data": 0
+      },
+      {
+        "item": "minecraft:copper_ingot",
+        "data": 0
+      },
+      {
+        "item": "minecraft:copper_ingot",
+        "data": 0
+      },
+      {
+        "item": "minecraft:copper_ingot",
+        "data": 0
+      },
+      {
+        "item": "bym:sheld_lvl1",
+        "data": 0
+      },
+      {
+        "item": "minecraft:copper_ingot",
+        "data": 0
+      },
+      {
+        "item": "minecraft:copper_ingot",
+        "data": 0
+      },
+      {
+        "item": "minecraft:copper_ingot",
+        "data": 0
+      },
+      {
+        "item": "minecraft:copper_ingot",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "bym:sheld_lvl2",
+      "count": 1
+    }
+  }
+}
