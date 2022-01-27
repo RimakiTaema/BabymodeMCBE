@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Babymode Update\nAdded Sheld And tree\nV0.0.1A patch 1 by Secondyou",
+    "name": "Babymode",
+    "uuid": "2d4b4457-06e2-4940-9853-81edd1cb8a46",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      16,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Babymode Update\nAdded Sheld And tree\nV0.0.1A patch 1 by Secondyou",
+      "type": "resources",
+      "uuid": "209d0119-048c-44ee-8961-db88dd6ad15c",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

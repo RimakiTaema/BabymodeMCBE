@@ -1,0 +1,15 @@
+{
+  "bym:tree_leave": {
+    "textures": "bym_tree_leave",
+    "sound": "grass"
+  },
+  "bym:tree_super": {
+    "textures": "bym_tree_super",
+    "sound": "slime"
+  },
+  "format_version": [
+    1,
+    1,
+    0
+  ]
+}
