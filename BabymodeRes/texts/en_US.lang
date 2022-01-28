@@ -2,6 +2,7 @@ item.bym:sheld_lvl1.name=Sheld §dLevel 1
 item.bym:sheld_lvl2.name=Sheld §dLevel 2
 tile.bym:tree_super.name=Tree
 tile.bym:tree_leave.name=Leaves.exe
+item.bym:fuel.name=fuel.exe
 item.bym:tree_super_placer.name=Tree
 item.bym:tree_super_placer=Tree
 ## Comments can be added anywhere on a valid line by starting with '##'

@@ -27,12 +27,6 @@
         "repair_items": [
           {
             "items": [
-              "minecraft:emerald"
-            ],
-            "repair_amount": 10
-          },
-          {
-            "items": [
               "minecraft:cobblestone"
             ],
             "repair_amount": 35
@@ -98,7 +92,13 @@
       }
     },
     "events": {
-      "on_use_event": {},
+      "on_use_event": {
+        "run_command": {
+          "command": [
+            "function Sheld_Lv2_items"
+          ]
+        }
+      },
       "hurt": {
         "damage": {
           "type": "magic",

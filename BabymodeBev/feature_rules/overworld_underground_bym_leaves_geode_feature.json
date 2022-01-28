@@ -1,0 +1,52 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "places_feature": "bym:leaves_geode",
+      "identifier": "bym:leaves_geode_rules"
+    },
+    "conditions": {
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld"
+            }
+          ]
+        }
+      ],
+      "placement_pass": "underground_pass"
+    },
+    "distribution": {
+      "x": {
+        "extent": [
+          0,
+          16
+        ],
+        "distribution": "uniform"
+      },
+      "y": {
+        "extent": [
+          2,
+          127
+        ],
+        "distribution": "uniform"
+      },
+      "z": {
+        "extent": [
+          0,
+          16
+        ],
+        "distribution": "uniform"
+      },
+      "iterations": 6,
+      "coordinate_eval_order": "zyx",
+      "scatter_chance": {
+        "numerator": 4,
+        "denominator": 100
+      }
+    }
+  }
+}

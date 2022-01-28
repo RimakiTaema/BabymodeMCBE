@@ -2,8 +2,8 @@
   "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "bym:tree_super_log_rules",
-      "places_feature": "bym:tree_super_log"
+      "identifier": "bym:tree_super_rules",
+      "places_feature": "bym:tree_super"
     },
     "conditions": {
       "placement_pass": "surface_pass",

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fuel_4f48bfd8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA ",
+      "AA "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:coal_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bym:fuel",
+      "count": 2
+    }
+  }
+}

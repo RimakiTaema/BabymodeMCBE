@@ -74,6 +74,9 @@
     "bym_tree_super": {
       "textures": "textures/blocks/bym_tree_super"
     },
+    "bym:fuel": {
+      "textures": "textures/items/pamobile/bym_fuel"
+    },
     "bym_sheld_lvl1": {
       "textures": "textures/items/pamobile/bym_sheld_lvl1"
     },

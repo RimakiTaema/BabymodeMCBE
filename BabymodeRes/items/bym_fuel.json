@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bym:fuel",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "bym:fuel",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

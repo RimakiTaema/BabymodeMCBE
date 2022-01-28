@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "description": "Babymode Update\nAdded Sheld And tree\nV0.0.1A patch 1 by Secondyou",
+    "description": "Babymode cor Ez playing by Secondyou",
     "name": "Babymode",
-    "uuid": "2d4b4457-06e2-4940-9853-81edd1cb8a46",
+    "uuid": "7965ee97-b15c-4383-b059-6ad638134cd7",
     "version": [
       0,
       0,
@@ -17,9 +17,19 @@
   },
   "modules": [
     {
-      "description": "Babymode Update\nAdded Sheld And tree\nV0.0.1A patch 1 by Secondyou",
+      "description": "Babymode cor Ez playing by Secondyou",
       "type": "resources",
-      "uuid": "209d0119-048c-44ee-8961-db88dd6ad15c",
+      "uuid": "50f5e9c5-7667-43bd-8e98-bca98d8eefb8",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "62c5d94a-7c11-42d0-be51-84504c1788d5",
       "version": [
         0,
         0,

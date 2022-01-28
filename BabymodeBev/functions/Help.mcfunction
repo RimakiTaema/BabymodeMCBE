@@ -1,4 +1,4 @@
-tellraw @s {"rawtext": [{"text": "version 0.0.1a patch 1"}]}
+tellraw @s {"rawtext": [{"text": "version 0.0.1a patch 2"}]}
 
 tellraw @s {"rawtext": [{"text": ":babymode - Start Babymode(Enchant)"}]}
 
