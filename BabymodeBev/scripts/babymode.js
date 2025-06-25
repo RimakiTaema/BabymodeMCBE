@@ -11,14 +11,12 @@ function runCommand(command, dimension) {
 World.events.beforeChat.subscribe((chatData) => {
   let plName = chatData.sender.name ?? chatData.sender.nameTag;
   if (chatData.message === ":babymode") {
-    runCommand(`say its broken bro`);
-    runCommand(`say มันพังนะ เดื่ยวเกมไหม้`);
+    runCommand(`say [BabyModeMCBE] : W.I.P`);
     chatData.cancel = true
   };
   
   if (chatData.message === ":endbabymode") {
     chatData.cancel = true;
-    runCommand(`say its broken bro`)
-    runCommand(`say มันพังนะ เดื่ยวเกมไหม้`)
+    runCommand(`say [BabyModeMCBE] : W.I.P`)
   };
   
